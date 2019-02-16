@@ -1,6 +1,6 @@
 // https://codingbat.com/prob/p161642
 
-package main
+package warmup1
 
 func backAround(str string) string {
 	result := make([]byte, len(str)+2)

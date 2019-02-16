@@ -1,5 +1,5 @@
 // https://codingbat.com/prob/p116624
-package main
+package warmup1
 
 import "fmt"
 

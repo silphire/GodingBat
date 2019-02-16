@@ -1,4 +1,4 @@
-package main
+package warmup1
 
 func hasTeen(nums ...int) bool {
 	for _, num := range nums {
