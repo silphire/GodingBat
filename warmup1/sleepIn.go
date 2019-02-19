@@ -9,7 +9,6 @@ func sleepIn(weekday bool, vacation bool) bool {
 func action(doing bool) string {
 	if doing {
 		return "wakeup"
-	} else {
-		return "sleep"
 	}
+	return "sleep"
 }

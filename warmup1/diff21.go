@@ -1,5 +1,6 @@
-// https://codingbat.com/prob/p116624
 package warmup1
+
+// https://codingbat.com/prob/p116624
 
 import "fmt"
 
