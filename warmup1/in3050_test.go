@@ -22,3 +22,10 @@ func TestBoth40s(t *testing.T) {
 		t.Fatal("expected true but actually not")
 	}
 }
+
+func TestBothOutside(t *testing.T) {
+	actual := in3050(60, 20)
+	if actual {
+		t.Fatal("expected false but actually not")
+	}
+}
