@@ -7,3 +7,9 @@ func TestFoundDoubleX(t *testing.T) {
 		t.Fatal("expected true but not")
 	}
 }
+
+func TestNotFoundDoubleX(t *testing.T) {
+	if doubleX("axbxcx") {
+		t.Fatal("expected false but not")
+	}
+}
