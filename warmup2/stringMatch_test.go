@@ -9,3 +9,11 @@ func TestStringMatch1(t *testing.T) {
 		t.Fatalf("expected %d, but actually %d", expected, actual)
 	}
 }
+
+func TestStringMatch2(t *testing.T) {
+	expected := 4
+	actual := stringMatch("abcde", "abcdefg");
+	if expected != actual {
+		t.Fatalf("expected %d, but actually %d", expected, actual)
+	}
+}
