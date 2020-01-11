@@ -6,7 +6,7 @@ func copyEvens(nums []int, count int) []int {
 	for _, n := range nums {
 		if n%2 == 0 {
 			r[i] = n
-			i += 1
+			i++
 			if i == count {
 				break
 			}
